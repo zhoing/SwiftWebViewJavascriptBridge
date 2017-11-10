@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftWebViewJavascriptBridge_Example' do
+  pod 'SwiftWebViewJavascriptBridge', :path => '../'
+
+  target 'SwiftWebViewJavascriptBridge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

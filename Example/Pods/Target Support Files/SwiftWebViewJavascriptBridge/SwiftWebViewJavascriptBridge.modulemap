@@ -1,0 +1,6 @@
+framework module SwiftWebViewJavascriptBridge {
+  umbrella header "SwiftWebViewJavascriptBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
