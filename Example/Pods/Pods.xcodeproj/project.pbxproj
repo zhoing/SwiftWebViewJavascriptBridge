@@ -13,6 +13,11 @@
 		3A1C27DC1FB57F550049FFED /* WebViewJavascriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D71FB57F550049FFED /* WebViewJavascriptBridge.swift */; };
 		3A1C27DD1FB57F550049FFED /* WebViewJavascriptBridgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D81FB57F550049FFED /* WebViewJavascriptBridgeBase.swift */; };
 		3A1C27DE1FB57F550049FFED /* WebViewJavaScriptBridgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D91FB57F550049FFED /* WebViewJavaScriptBridgeProtocol.swift */; };
+		3AB76A1B1FC2C3B200EE7DB5 /* WebViewJavascriptBridge_JS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D61FB57F550049FFED /* WebViewJavascriptBridge_JS.swift */; };
+		3AB76A1C1FC2C3B200EE7DB5 /* WebViewJavascriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D71FB57F550049FFED /* WebViewJavascriptBridge.swift */; };
+		3AB76A1D1FC2C3B200EE7DB5 /* WebViewJavascriptBridgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D81FB57F550049FFED /* WebViewJavascriptBridgeBase.swift */; };
+		3AB76A1E1FC2C3B200EE7DB5 /* WebViewJavaScriptBridgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D91FB57F550049FFED /* WebViewJavaScriptBridgeProtocol.swift */; };
+		3AB76A1F1FC2C3B200EE7DB5 /* WKWebViewJavascriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C27D51FB57F550049FFED /* WKWebViewJavascriptBridge.swift */; };
 		5DC49BE144E5C73A120AAE20739C6BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6BDD1847CBEB33CCF27B826B57C2631E /* Pods-SwiftWebViewJavascriptBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27063C1DDE88E517B1A4055643F91F8D /* Pods-SwiftWebViewJavascriptBridge_Example-dummy.m */; };
 		7EFC4DDA40DE99F86D0AE2B57B9B9F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -351,6 +356,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB76A1B1FC2C3B200EE7DB5 /* WebViewJavascriptBridge_JS.swift in Sources */,
+				3AB76A1C1FC2C3B200EE7DB5 /* WebViewJavascriptBridge.swift in Sources */,
+				3AB76A1D1FC2C3B200EE7DB5 /* WebViewJavascriptBridgeBase.swift in Sources */,
+				3AB76A1E1FC2C3B200EE7DB5 /* WebViewJavaScriptBridgeProtocol.swift in Sources */,
+				3AB76A1F1FC2C3B200EE7DB5 /* WKWebViewJavascriptBridge.swift in Sources */,
 				FDB770D6FFA8C007B8B4BD807E310383 /* SwiftWebViewJavascriptBridge-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
